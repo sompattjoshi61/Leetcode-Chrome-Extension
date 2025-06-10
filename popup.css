@@ -1,0 +1,89 @@
+/* popup.css */
+
+/* Reset default margin and padding */
+body, h1, h2, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style for the header */
+.header {
+  text-align: center;
+  padding: 10px;
+  background-color: #F6F6F6;
+  color: #007bff;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 16px;
+}
+
+/* Basic styling for the popup container */
+.wrapper {
+  width: 280px;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Style for the "View Solution" link */
+.container .solution {
+  display: block;
+  margin-bottom: 10px;
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.container a:hover {
+  background-color: #0056b3;
+}
+
+/* Style for the saved links list */
+.link-list {
+  list-style: none;
+  padding: 0;
+  /* max height of the list before scrolling */
+  max-height: 350px;
+  overflow-y: auto;
+}
+
+.link-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px;
+
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.link-list li:last-child {
+  border-bottom: none;
+}
+
+.link-list a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.link-list a:hover {
+  color: #0056b3;
+}
+
+.link-list button {
+  background-color: transparent;
+  border: none;
+  color: #d9534f;
+  cursor: pointer;
+  transition: color 0.2s;
+  font-size: 12px;
+}
+
+.link-list button:hover {
+  color: #c9302c;
+}
