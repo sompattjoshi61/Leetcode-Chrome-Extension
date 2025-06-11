@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
 		const container = document.getElementsByClassName('container')[0]
 
-		container.innerHTML = `<a class='solution' href="https://algonotebook.vercel.app/leetcode/${problemSlug}">View Solution Of This Problem</a>`
+		container.innerHTML = `<a class='solution' href="https://leetcode-extension-versel-deploymen-iota.vercel.app/leetcode/${problemSlug}">View Solution Of This Problem</a>`
 		addPopupToLinks(container, problemSlug)
 	} else {
 		const container = document.getElementsByClassName('container')[0]
